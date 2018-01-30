@@ -16,6 +16,11 @@ public class Main {
     static boolean bool1 = true;
     static boolean bool2 = false;
 
+    //Reference type
+    static String s = "Hello Unicorn";
+    //Char type
+    static char c = 'd'; //
+
     public static void main(String[] args) {
 
         System.out.println("byte: " + b);
@@ -28,5 +33,8 @@ public class Main {
 
         System.out.println("bool1: " + bool1);
         System.out.println("bool2: " + bool2);
+
+        System.out.println("String: " + s);
+        System.out.println("char: " + c);
     }
 }
