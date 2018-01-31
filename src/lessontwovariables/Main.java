@@ -22,16 +22,16 @@ public class Main {
     static char c = 'd'; //
 
     public static void main(String[] args) {
-
-        System.out.println("byte: " + b);
-        System.out.println("short: " + sh);
+        //Комментирование строк для примера
+        //System.out.println("byte: " + b); Однострочный комментарий
+       /* System.out.println("short: " + sh);  //Многострочный комментарий (начало)
         System.out.println("int: " + i);
         System.out.println("long: " + l);
 
         System.out.println("float: " + fl);
         System.out.println("double: " + db);
 
-        System.out.println("bool1: " + bool1);
+        System.out.println("bool1: " + bool1); */ //Многострочный комментарий (конец)
         System.out.println("bool2: " + bool2);
 
         System.out.println("String: " + s);
