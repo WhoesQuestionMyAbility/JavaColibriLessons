@@ -21,20 +21,10 @@ public class Main {
     //Char type
     static char c = 'd'; //
 
+    static final int CONST = 55; //Объявление константы через final. Изменение привет к ошибке
+
     public static void main(String[] args) {
-        //Комментирование строк для примера
-        //System.out.println("byte: " + b); Однострочный комментарий
-       /* System.out.println("short: " + sh);  //Многострочный комментарий (начало)
-        System.out.println("int: " + i);
-        System.out.println("long: " + l);
-
-        System.out.println("float: " + fl);
-        System.out.println("double: " + db);
-
-        System.out.println("bool1: " + bool1); */ //Многострочный комментарий (конец)
-        System.out.println("bool2: " + bool2);
-
-        System.out.println("String: " + s);
-        System.out.println("char: " + c);
+        System.out.print(CONST);
+        //CONST=88; ошибка
     }
 }
