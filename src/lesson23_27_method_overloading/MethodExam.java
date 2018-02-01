@@ -18,5 +18,5 @@ public class MethodExam {
         System.out.println(g);
     }
 
-    
+
 }
