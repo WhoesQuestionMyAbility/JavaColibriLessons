@@ -48,6 +48,10 @@ public class People {
         this.cat = cat;
     }
 
+    public void sayHello() {
+        System.out.println("Hello!");
+    }
+
     @Override
     public String toString() {
         return "People[Имя: " + name + ", Фамилия: " + lastName + " - " + age + " год(а)" + ", есть кот: " + cat +"]";

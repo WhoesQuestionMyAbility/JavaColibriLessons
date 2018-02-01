@@ -18,4 +18,14 @@ public class Sportsman extends People {
     public void setTypeSport(String typeSport) {
         this.typeSport = typeSport;
     }
+
+    @Override
+    public void sayHello() {
+        System.out.println("Yawooza");
+    }
+
+    @Override
+    public String toString() {
+        return "Sportsman[Имя: " + getName() + ", Фамилия: " + getLastName() + " - " + getAge() + " год(а)" + ", вид спорта: " + typeSport +"]";
+    }
 }

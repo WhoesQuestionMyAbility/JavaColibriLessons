@@ -15,10 +15,14 @@ public class Main {
         people = new People("Rostislav", "Kuchin", 23, cat);
         people.getCat().setName("George");
         System.out.println(people);
+        people.sayHello();
         cat.say();
         people.getCat().say();
 
+        System.out.println();
         Sportsman sportsman = new Sportsman("Bob", "Denson", 36, null);
         sportsman.setTypeSport("Tennis");
+        System.out.println(sportsman);
+        sportsman.sayHello();
     }
 }
