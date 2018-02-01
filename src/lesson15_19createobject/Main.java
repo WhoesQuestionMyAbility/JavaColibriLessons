@@ -2,6 +2,7 @@ package lesson15_19createobject;
 
 import lesson15_19createobject.devcat.Cat;
 import lesson15_19createobject.devpeople.People;
+import lesson15_19createobject.devprofs.Sportsman;
 
 public class Main {
 
@@ -16,5 +17,8 @@ public class Main {
         System.out.println(people);
         cat.say();
         people.getCat().say();
+
+        Sportsman sportsman = new Sportsman("Bob", "Denson", 36, null);
+        sportsman.setTypeSport("Tennis");
     }
 }
