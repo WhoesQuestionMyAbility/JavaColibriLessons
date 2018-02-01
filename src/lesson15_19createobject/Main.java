@@ -5,19 +5,14 @@ import lesson15_19createobject.devpeople.People;
 
 public class Main {
 
-    static Cat cat = new Cat();
-    static People people = new People();
+    static Cat cat;
+    static People people;
     public static void main(String[] args) {
 
-        cat.setName("Lola");
-        cat.setBreed("None");
-        cat.setAge(3);
+        cat  = new Cat(3, "None", "Lola");
 
-        people.setName("Rostislav");
-        people.setLastName("Kuchin");
-        people.setAge(23);
-        people.setCat(cat);
-
+        people = new People("Rostislav", "Kuchin", 23, cat);
+        people.getCat().setName("George");
         System.out.println(people);
         cat.say();
         people.getCat().say();

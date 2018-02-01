@@ -6,6 +6,12 @@ public class Cat {
     private String breed;
     private String name;
 
+    public Cat(int age, String breed, String name) {
+        this.age = age;
+        this.breed = breed;
+        this.name = name;
+    }
+
     public int getAge() {
         return age;
     }
