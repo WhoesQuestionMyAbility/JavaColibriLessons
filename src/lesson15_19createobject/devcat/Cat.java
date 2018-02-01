@@ -1,6 +1,6 @@
 package lesson15_19createobject.devcat;
 
-public class Cat {
+public class Cat extends Animals{
 
     private int age;
     private String breed;
@@ -36,6 +36,11 @@ public class Cat {
         this.name = name;
     }
 
+    @Override
+    void eat() {
+        System.out.println("Yami");
+    }
+    @Override
     public void say(){
         System.out.println("Meow!");
     }
